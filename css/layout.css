@@ -1,0 +1,26 @@
+.container {
+  padding: 3rem 1.5rem 0;
+}
+
+.flex {
+  display: flex;
+}
+
+.profile-info {
+  flex-basis: 70%;
+}
+
+@media screen and (min-width: 756px) {
+  .container {
+    width: 600px;
+    margin: auto;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+  }
+
+  .content {
+    width: 800px;
+    height: 600px;
+  }
+}
