@@ -21,3 +21,26 @@ body {
   width: 30%;
   margin-right: 1rem;
 }
+
+div.stats a {
+  color: hsl(236deg, 100%, 87%);
+  margin: 2rem;
+}
+
+.background-work {
+  background-color: hsl(15deg, 100%, 70%);
+  background-image: url("/images/icon-work.svg");
+  background-repeat: no-repeat;
+  background-position: 95%;
+  height: 3rem;
+  border-radius: 15px 15px 0 0;
+  margin-top: 2rem;
+}
+
+.div-work {
+  background-color: hsl(235deg, 46%, 20%);
+  margin: 0;
+  border-radius: 15px;
+
+  /* padding-top: 3rem; */
+}
