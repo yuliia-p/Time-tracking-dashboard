@@ -10,6 +10,18 @@
   flex-basis: 70%;
 }
 
+.wrap {
+  flex-wrap: wrap;
+}
+
+.flex-basis-90 {
+  flex-basis: 90%;
+}
+
+.flex-basis-10 {
+  flex-basis: 10%;
+}
+
 @media screen and (min-width: 756px) {
   .container {
     width: 600px;

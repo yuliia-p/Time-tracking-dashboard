@@ -41,6 +41,32 @@ div.stats a {
   background-color: hsl(235deg, 46%, 20%);
   margin: 0;
   border-radius: 15px;
+  position: absolute;
+  width: 100%;
+  top: 2rem;
+  padding: 1rem;
 
   /* padding-top: 3rem; */
+}
+
+.position {
+  position: relative;
+}
+
+.icon-ellipsis {
+  height: 100%;
+}
+
+p {
+  margin: 0;
+}
+
+.background-play {
+  background-color: hsl(195deg, 74%, 62%);
+  background-image: url("/images/icon-play.svg");
+  background-repeat: no-repeat;
+  background-position: 95%;
+  height: 3rem;
+  border-radius: 15px 15px 0 0;
+  margin-top: 2rem;
 }
