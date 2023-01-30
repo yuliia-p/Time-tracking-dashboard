@@ -37,11 +37,13 @@ div.stats a {
   margin-top: 2rem;
 }
 
+.play-work,
 .div-work {
   background-color: hsl(235deg, 46%, 20%);
   margin: 0;
   border-radius: 15px;
-  position: absolute;
+
+  /* position: absolute; */
   width: 100%;
   top: 2rem;
   padding: 1rem;
