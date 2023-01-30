@@ -22,33 +22,31 @@ body {
   margin-right: 1rem;
 }
 
+div.stats {
+  text-align: center;
+  padding: 1rem;
+}
+
 div.stats a {
   color: hsl(236deg, 100%, 87%);
-  margin: 2rem;
+  margin: 1.2rem;
+  text-decoration: none;
+  font-size: 1.2rem;
 }
 
-.background-work {
-  background-color: hsl(15deg, 100%, 70%);
-  background-image: url("/images/icon-work.svg");
-  background-repeat: no-repeat;
-  background-position: 95%;
-  height: 3rem;
-  border-radius: 15px 15px 0 0;
-  margin-top: 2rem;
-}
-
-.play-work,
-.div-work {
+.div-play,
+.div-work,
+.div-study,
+.div-exercise,
+.div-social,
+.div-self-care {
   background-color: hsl(235deg, 46%, 20%);
   margin: 0;
   border-radius: 15px;
-
-  /* position: absolute; */
+  position: relative;
   width: 100%;
-  top: 2rem;
+  top: -1rem;
   padding: 1rem;
-
-  /* padding-top: 3rem; */
 }
 
 .position {
@@ -63,12 +61,55 @@ p {
   margin: 0;
 }
 
+h1 {
+  margin: 0.5rem 0;
+  font-weight: 100;
+}
+
+.background-work,
+.background-play,
+.background-study,
+.background-exercise,
+.background-social,
+.background-self-care {
+  background-repeat: no-repeat;
+  background-position: 95%;
+  height: 3.5rem;
+  border-radius: 15px 15px 0 0;
+  margin-top: 2rem;
+}
+
+.background-work {
+  background-color: hsl(15deg, 100%, 70%);
+  background-image: url("/images/icon-work.svg");
+}
+
 .background-play {
   background-color: hsl(195deg, 74%, 62%);
   background-image: url("/images/icon-play.svg");
-  background-repeat: no-repeat;
-  background-position: 95%;
-  height: 3rem;
-  border-radius: 15px 15px 0 0;
-  margin-top: 2rem;
+}
+
+.background-study {
+  background-color: hsl(348deg, 100%, 68%);
+  background-image: url("/images/icon-study.svg");
+}
+
+.background-exercise {
+  background-color: hsl(145deg, 58%, 55%);
+  background-image: url("/images/icon-exercise.svg");
+}
+
+.background-social {
+  background-color: hsl(264deg, 64%, 52%);
+  background-image: url("/images/icon-social.svg");
+}
+
+.background-self-care {
+  background-color: hsl(43deg, 84%, 65%);
+  background-image: url("/images/icon-self-care.svg");
+}
+
+.last-week {
+  text-align: end;
+  color: hsl(236deg, 100%, 87%);
 }
