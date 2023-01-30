@@ -17,9 +17,11 @@ div.profile {
   padding: 1rem;
 }
 
-.profile-pic {
+img.profile-pic {
   width: 30%;
   margin-right: 1rem;
+  border: solid 3px white;
+  border-radius: 50%;
 }
 
 div.stats {
@@ -29,7 +31,7 @@ div.stats {
 }
 
 div.stats a {
-  color: hsl(236deg, 100%, 87%);
+  color: hsl(235deg, 45%, 61%);
   margin: 1.2rem;
   text-decoration: none;
   font-size: 1.2rem;
@@ -112,5 +114,60 @@ h1 {
 
 .last-week {
   text-align: end;
-  color: hsl(236deg, 100%, 87%);
+  color: hsl(235deg, 45%, 61%);
+}
+
+@media screen and (min-width: 756px) {
+  .background-work,
+  .background-play,
+  .background-study,
+  .background-exercise,
+  .background-social,
+  .background-self-care {
+    margin-top: 0;
+    height: 4.5rem;
+  }
+
+  .div-play,
+  .div-work,
+  .div-study,
+  .div-exercise,
+  .div-social,
+  .div-self-care {
+    height: 200px;
+  }
+
+  h1 {
+    padding: 0.7rem 0;
+    font-size: 3.5rem;
+  }
+
+  h3 {
+    font-size: 3.1rem;
+    font-weight: 100;
+    margin-top: 0;
+    margin-bottom: 2rem;
+  }
+
+  p {
+    padding: 0.3rem;
+    font-size: 1.25rem;
+  }
+
+  .last-week {
+    text-align: start;
+  }
+
+  div.stats {
+    margin-bottom: 0;
+    height: 100%;
+  }
+
+  img.profile-pic {
+    margin: 2rem 1rem 3rem;
+  }
+
+  div.stats a {
+    margin: 0.5rem;
+  }
 }
