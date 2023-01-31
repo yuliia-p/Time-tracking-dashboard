@@ -16,16 +16,15 @@ Users should be able to:
 
 <p align="middle">
 <img src="./images/desktop.gif" width="900">
-<img src="./images/desktop.png" width="800">
 </p>
 <p align="middle">
-<img src="./images/mobile" width="300">
-<img src="./images/mobile-1" width="300">
+<img src="./images/mobile.png" width="300">
+<img src="./images/mobile-1.png" width="300">
 </p>
 
 ### Links
 
-- Live Site [URL](https://yuliia-p.github.io/Intro-section-with-dropdown-navigation/)
+- Live Site [URL]()
 
 ## My process
 
