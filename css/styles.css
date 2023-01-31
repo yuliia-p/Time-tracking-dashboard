@@ -117,7 +117,11 @@ h1 {
   color: hsl(235deg, 45%, 61%);
 }
 
-@media screen and (min-width: 756px) {
+div.stats a.active {
+  color: white;
+}
+
+@media screen and (min-width: 1200px) {
   .background-work,
   .background-play,
   .background-study,
