@@ -15,12 +15,12 @@ Users should be able to:
 ### Screenshot
 
 <p align="middle">
-<img src="./images/desk.gif" width="900">
-<img src="./images/mobile.png" width="300">
-<img src="./images/mobile-2.png" width="300">
+<img src="./images/desktop.gif" width="900">
+<img src="./images/desktop.png" width="800">
 </p>
 <p align="middle">
-<img src="./images/mobile-gif.gif" width="300">
+<img src="./images/mobile" width="300">
+<img src="./images/mobile-1" width="300">
 </p>
 
 ### Links
