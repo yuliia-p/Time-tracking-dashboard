@@ -50,6 +50,16 @@ div.stats a {
   width: 100%;
   top: -1rem;
   padding: 1rem;
+  cursor: pointer;
+}
+
+.div-play:hover,
+.div-work:hover,
+.div-study:hover,
+.div-exercise:hover,
+.div-social:hover,
+.div-self-care:hover {
+  background-color: rgb(36, 40, 98);
 }
 
 .position {
@@ -58,6 +68,7 @@ div.stats a {
 
 .icon-ellipsis {
   height: 100%;
+  cursor: pointer;
 }
 
 p {
