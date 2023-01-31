@@ -17,6 +17,10 @@ div.profile {
   padding: 1rem;
 }
 
+div.profile-info {
+  padding: 1.2rem 0;
+}
+
 img.profile-pic {
   width: 30%;
   margin-right: 1rem;
@@ -78,6 +82,12 @@ p {
 h1 {
   margin: 0.5rem 0;
   font-weight: 100;
+}
+
+h3 {
+  font-size: 1.5rem;
+  font-weight: 100;
+  margin: 0;
 }
 
 .background-work,
